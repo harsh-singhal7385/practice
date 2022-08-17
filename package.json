@@ -1,0 +1,32 @@
+{
+  "name": "nodejs_express_setup",
+  "version": "1.0.0",
+  "description": "complete setup of nodejs, express, mongodb and angular / reactjs....",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harsh-singhal7385/practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harsh-singhal7385/practice/issues"
+  },
+  "homepage": "https://github.com/harsh-singhal7385/practice#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "cross-fetch": "^3.1.5",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.2",
+    "nodemon": "^2.0.19"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.2"
+  }
+}
