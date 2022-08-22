@@ -6,7 +6,9 @@ const SERVER = "localhost"
 const path = require('path')
 const router = require('../routes/direct_route.js')
 const bodyParser = require('body-parser')
+const cors = require('cors')
 // app.use(express.json());
+app.use(cors())
 app.use(bodyParser.urlencoded({extended : true}))
 app.use(bodyParser.json())
 
